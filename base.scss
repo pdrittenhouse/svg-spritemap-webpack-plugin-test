@@ -1,0 +1,9 @@
+@import "svg/generated/icons-generated";
+
+.test-icon {
+  @include sprite('close', (color: #ff000));
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: contain;
+}

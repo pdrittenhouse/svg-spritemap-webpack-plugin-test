@@ -1,0 +1,29 @@
+# Ignore build config
+package.json
+package-lock.json
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore build directories
+dist/
+fonts/
+
+# Ignore Wordpress admin and includes
+wp-admin/
+wp-includes/
+
+# Ignore everything in the "wp-content" directory, except themes:
+wp-content/*
+!wp-content/themes/
+
+# Ignore specific themes
+**/wp-content/themes/twenty*/
+
+# Ignore all plugins
+**/wp-content/plugins/**
+
+# Ignore everything in the "patternlab" directory, except patterns:
+**/patternlab/**
+!**/patternlab/source

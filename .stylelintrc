@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint-config-prettier"
+  ],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "indentation": 2,
+    "declaration-colon-space-after": "always",
+    "max-nesting-depth": 5,
+    "selector-max-specificity": "0,5,5",
+    "selector-max-id": 0,
+    "scss/selector-no-redundant-nesting-selector": true,
+    "at-rule-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "selector-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true
+  }
+}
